@@ -1,11 +1,4 @@
-
-
-.product {
-  width: 300px;
-  height: 300px;
-  border: 1px solid #f50;
-  position: relative; }
-  .product .overlay {
+.product .overlay {
     position: absolute;
     top: 0;
     left: 0;
