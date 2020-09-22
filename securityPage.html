@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div class="menu-icon">
+            <span class="one_s"></span>
+            <span class="two_s"></span>
+            <span class="three_s"></span>
+        </div>
+        <div class="page-content">
+            <div class="y width-content" style="overflow: auto;">
+                <div class="top-bar">
+                    <div class="tobar-content-left cont">
+                        <div class="user-info">
+                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                            <p class="user-name-p">عبدالرحمن محمد</p>
+                            <span class="online"></span>
+                        </div>
+                        <div class="notify-mess">
+                            <div class="notify">
+                                <img src="icons/Asset 2mdpi.png" alt="" id="notify">
+                                <span class="notify-sm"></span>
+                                <img src="icons/Asset 9mdpi.png" alt="" class="arrow-list">
+                                <!-- <div class="dropdown f">
+                                    <div class="dropdown-content">
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="mess">
+                                <img src="icons/Asset 1mdpi.png" alt="" id="mess">
+                                <span class="notify-ms"></span>
+                                <img src="icons/Asset 9mdpi.png" alt="" class="arrow-list">
+                                <!-- <div class="dropdown x">
+                                    <div class="dropdown-content">
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                        <hr>
+                                        <a href="#">
+                                            <p>لقد قام الشخص كذا بشراء الحساب الخاص بك بالحصول علي المعلومات الان</p>
+                                            <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tobar-content-right">
+                        <input type="text" placeholder="ابحث">
+                        <img src="icons/Asset 3mdpi.png" alt="">
+                    </div>
+                </div>
+                <div class="cont2">
+                    <div class="form-email forms">
+                        <div class="email-information">
+                            <button type="button" id="changeEmail">تغيير البريد</button>
+                            <div>
+                                <p>البريد الالكتورني</p>
+                                <p dir="rtl">بريدك الحالي هو a@yahoo.com</p>
+                            </div>
+                        </div>
+                        <form action="" class="form_one">
+                            <div>
+                                <div>
+                                    <label for="current_p">كلمه السر الحاليه</label><br>
+                                    <input type="password" id="current_p">
+                                </div>
+                                <a href="#">نسيت كلمه السر؟</a>
+                            </div>     
+                            <div>
+                                <div>
+                                    <label for="email_new">البريد الالكتروني الجديد</label><br>
+                                    <input type="email" id="email_new">
+                                </div>
+                            </div>     
+                            <div>
+                                <div>
+                                    <label for="email_confirm">تأكيد البريد الالكتروني</label><br>
+                                    <input type="email" id="email_confirm">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100 p-2 mt-3">حفظ البيانات</button>
+                        </form>
+                    </div>
+                    <div class="form-password forms">
+                        <div class="password-information">
+                            <button type="button" id="changePassword">تغيير كلمه المرور</button>
+                            <div>
+                                <p>كلمه المرور</p>
+                                <p dir="rtl">لا تستعمل كلمه مرور مطابقه للبريد الالكتروني</p>
+                            </div>
+                        </div>
+                        <form action="" class="form_two">
+                            <div>
+                                <div>
+                                    <label for="current_pp">كلمه السر الحاليه</label><br>
+                                    <input type="password" id="current_pp">
+                                </div>
+                                <a href="#">نسيت كلمه السر؟</a>
+                            </div>     
+                            <div>
+                                <div>
+                                    <label for="pass_new">كلمه السر الجديد</label><br>
+                                    <input type="password" id="pass_new">
+                                </div>
+                            </div>     
+                            <div>
+                                <div>
+                                    <label for="pass_confirm">تأكيد كلمه السر</label><br>
+                                    <input type="password" id="pass_confirm">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100 p-2 mt-3">حفظ البيانات</button>
+                        </form>
+                    </div>
+                    <div class="form-phone forms">
+                        <div class="phone-information">
+                            <button type="button" id="changePhone">تغيير رقم الهاتف</button>
+                            <div>
+                                <p>رقم الهاتف</p>
+                                <p>رقم الهاتف الخاص بك هو <span class="phoneNum">***274755125</span></p>
+                            </div>
+                        </div>
+                        <div class="three_four">
+                            <form class="form_three">
+                                <form>
+                                    <div>
+                                        <p>ادخل الكود الذي سيصلك علي هذا الرقم <span class="phoneNum">*****05889489</span></p>
+                                        <div>
+                                            <input type="text" dir="rtl" placeholder="الكود"><button>إرسال</button>
+                                        </div>
+                                    </div>
+                                    <a href="#">لا تستطيع تأكيد رقم هاتفك الحالي؟</a>
+                                    <button type="submit" class="btn btn-warning w-100 p-2 mt-3">تأكيد</button>
+                                </form>     
+                            </form>
+                            <form class="form_four">
+                                <form>
+                                    <div>
+                                        <p>رقم الهاتف الجديد</p>
+                                        <div class="first">
+                                            <input type="text" dir="rtl" placeholder="رقم الهاتف"><br>
+                                            <select name="" id="">
+                                                <option value="">مصر</option>
+                                                <option value="">السعوديه</option>
+                                                <option value="">عمان</option>
+                                                <option value="">الكويت</option>
+                                                <option value="">البحرين</option>
+                                            </select>
+                                        </div>
+                                        <div class="second">
+                                            <input type="text" dir="rtl" placeholder="الكود"><button>إرسال</button>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning w-100 p-2 mt-3">تأكيد</button>
+                                </form>     
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-bar">
+                <img src="icons/E3tmd - Two color@3x.png" alt="" class="logo-e3">
+                <ul>
+                    <a href="index.html"><li>المبيعات <img src="icons/Asset 4mdpi.png" alt=""></li></a>
+                    <a href="accountsTable.html"><li>اداره الحسابات <img src="icons/Asset 5mdpi.png" alt=""></li></a>
+                    <a href="chat.html"><li>المحادثه المباشره <img src="icons/Asset 6mdpi.png" alt=""></li></a>
+                    <a href="#" class="active">
+                        <li class="active">اعدادات الحساب <img src="icons/Asset 5mdpi.png" alt="">
+                            <table class="right-margin">
+                                <thead>
+                                    <tr>
+                                        <th dir="rtl" class="small-size"><a href="accountSettings.html">• البيانات الشخصيه</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th dir="rtl" class="small-size list-hover"><a href="securityPage.html" class="yellow-color">• الحمايه والأمان</a></th>
+                                    </tr>
+                                    <tr>
+                                        <th dir="rtl" class="small-size list-hover"><a href="socialPage.html">• وسائل التواصل</a></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+        <script>
+            let buttEmail = document.querySelector('#changeEmail');
+            buttEmail.addEventListener('click',() =>{
+                document.querySelector('.form_one').classList.toggle('active')
+            })
+            let buttPassword = document.querySelector('#changePassword');
+            buttPassword.addEventListener('click',() =>{
+                document.querySelector('.form_two').classList.toggle('active')
+            })
+            let buttPhone = document.querySelector('#changePhone');
+            buttPhone.addEventListener('click',() =>{
+                document.querySelector('.three_four').classList.toggle('active')
+            })
+        </script>
+        <script>new WOW().init();</script>
+    </body>
+</html>
