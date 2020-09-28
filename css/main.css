@@ -70,7 +70,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -78,10 +78,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .tb {
   background-color: #2e3053;
@@ -192,7 +189,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -200,10 +197,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .edit-account-details {
   background-color: #2e3053;
@@ -404,7 +398,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -412,10 +406,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .account-details-add-p {
   background-color: #2e3053;
@@ -435,6 +426,13 @@
     .account-details-add-p .account-title img {
       width: 25px;
       height: 25px; }
+    .account-details-add-p .account-title input {
+      border: none;
+      outline: none;
+      background: none;
+      color: #ffb229;
+      padding: 0 8px;
+      width: 50%; }
   .account-details-add-p .accounts-info-imgs {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,8 +567,14 @@
         @media (max-width: 1100px) {
           .account-details-add-p .account-main-details .acc-det-top p {
             font-size: 15px; } }
-        .account-details-add-p .account-main-details .acc-det-top p span {
-          color: #fff; }
+        .account-details-add-p .account-main-details .acc-det-top p input {
+          border: none;
+          outline: none;
+          background: none;
+          color: #ffb229;
+          padding: 0 8px;
+          width: 100px;
+          color: #ccc !important; }
     .account-details-add-p .account-main-details .account-users-mazad .acc-det {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -586,8 +590,12 @@
       .account-details-add-p .account-main-details .account-users-mazad .acc-det p {
         color: #ffb229;
         font-size: 20px; }
-        .account-details-add-p .account-main-details .account-users-mazad .acc-det p span {
-          color: #fff; }
+        .account-details-add-p .account-main-details .account-users-mazad .acc-det p input {
+          border: none;
+          outline: none;
+          background: none;
+          color: #ffb229;
+          padding: 0 8px; }
     .account-details-add-p .account-main-details .account-users-mazad .tb {
       height: auto !important;
       margin: 0 !important;
@@ -681,7 +689,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -689,10 +697,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .chat-section {
   margin-top: 60px;
@@ -1487,7 +1492,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -1495,10 +1500,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .forms {
   background-color: #2e3053;
@@ -1907,7 +1909,7 @@
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -1915,10 +1917,7 @@
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .menu-icon {
   position: fixed;
@@ -2293,7 +2292,7 @@ body {
 .slide-bar {
   max-width: 250px;
   background: #2e3053;
-  height: auto;
+  min-height: 100vh;
   -webkit-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s;
@@ -2430,7 +2429,7 @@ body {
   .accepted:hover {
     color: #000; }
 
-.Notaccepted {
+.mazad {
   color: #fff;
   background-color: #316909;
   outline: none !important;
@@ -2438,10 +2437,7 @@ body {
   border: none;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s;
-  padding: 2px 7px; }
-  .Notaccepted:hover {
-    color: #000; }
+  transition: 0.5s; }
 
 .facebook-conection {
   background-color: #2e3053;

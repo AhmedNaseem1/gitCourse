@@ -81,13 +81,11 @@
                 </div>
                 <div class="cont2">
                     <div class="account-details-add-p">
-                        <p class="account-title" dir="rtl"><img src="icons/Asset 8mdpi.png" alt=""><input type="text" value="حساب اسطوري ولا أروع اسطوره روعه ليفل 903"></p>
+                        <p class="account-title" dir="rtl"><img src="icons/Asset 8mdpi.png" alt=""><input type="text" placeholder="معلومات الحساب"></p>
                         <div class="accounts-info-imgs">
                             <form class="accounts-info">
                                 <p>محتوي الحساب</p>
-                                <textarea dir="rtl" name="" id="" cols="30" rows="10" disabled>مستوي حساب لفل خمسين  مستوي حساب لفل خمسين  مستوي حساب لفل خمسين  مستوي حساب لفل خمسين  مستوي حساب لفل خمسين </textarea>
-                                <p class="edit-box">تعديل</p>
-                                <button class="save-box" type="submit">حفظ</button>
+                                <textarea dir="rtl" name="" id="" cols="30" rows="10" style="opacity: 1;" placeholder="محتوي الحساب"></textarea>
                             </form>
                             <div class="imgs-account">
                                 <label class="big-img" for="upload1"><img src="icons/upload.png" alt=""></label>
@@ -104,57 +102,12 @@
                         </div>
                         <div class="account-main-details">
                             <div class="acc-det-top">
-                                <p dir="rtl">مده التسليم : <input type="text" value="30"></p>
-                                <p dir="rtl">اللعبه : <input type="text" value="فورتنايت"></p>
-                                <p dir="rtl">السعر : <input type="number" value="30"></p>
+                                <p dir="rtl">مده التسليم : <input type="text" placeholder="الموعد"></p>
+                                <p dir="rtl">اللعبه : <input type="text" placeholder="اللعبه"></p>
+                                <p dir="rtl">السعر : <input type="number" placeholder="30 ر.س"></p>
                             </div>
                             <form class="account-users-mazad">
-                                <div class="tb table-responsive">
-                                    <div class="acc-det">
-                                        <p dir="rtl">تاريخ الانتهاء : <input type="date"></p>
-                                        <p dir="rtl">تاريخ البدء : <input type="date"></p>
-                                        <p dir="rtl">المزاد :  
-                                        <select name="" id="" class="mazad">
-                                            <option value="">مضاف الي المزاد</option>
-                                            <option value="">غير مضاف الي المزاد</option>
-                                        </select></p>
-                                    </div>
-                                    <table class="content-table">
-                                      <thead>
-                                        <tr>
-                                          <th>قبول</th>
-                                          <th>السعر</th>
-                                          <th>البريد الالكتروني</th>
-                                          <th>اسم المستخدم</th>
-                                        </tr>
-                                      </thead>
-                                      <tbody>
-                                        <tr>
-                                            <td><button class="accepted">تم القبول</button></td>
-                                            <td>210 ر.س</td>
-                                            <td>test@gmail.com</td>
-                                            <td>عبدالرحمن احمد <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><button class="mazad">قبول</button></td>
-                                            <td>210 ر.س</td>
-                                            <td>test@gmail.com</td>
-                                            <td>عبدالرحمن احمد <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><button class="accepted">تم القبول</button></td>
-                                            <td>210 ر.س</td>
-                                            <td>test@gmail.com</td>
-                                            <td>عبدالرحمن احمد <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg"></td>
-                                        </tr>
-                                        <tr>
-                                            <td><button class="accepted">تم القبول</button></td>
-                                            <td>210 ر.س</td>
-                                            <td>test@gmail.com</td>
-                                            <td>عبدالرحمن احمد <img src="icons/109826775_1565360223625982_6140403979713903862_o.jpg"></td>
-                                        </tr>
-                                      </tbody>
-                                    </table>    
+                                <div class="tb table-responsive"> 
                                   </div>
                             </form>
                         </div>
@@ -168,11 +121,11 @@
                 <ul>
                     <a href="index.html"><li>المبيعات <img src="icons/Asset 4mdpi.png" alt=""></li></a>
                     <a href="accountsTable.html" class="active">
-                        <li class="active">اداره الحسابات <img src="icons/Asset 5mdpi.png" alt=""><br>
+                        <li class="active text-light">اداره الحسابات <img src="icons/Asset 5mdpi.png" alt=""><br>
                             <table class="right-margin">
                                 <thead>
                                     <tr>
-                                        <th dir="rtl" class="small-size"><a href="addAcc.html" class="list-hover">+ اضافه حساب جديد</a></th>
+                                        <th dir="rtl" class="small-size"><a href="addAcc.html" class="list-hover yellow-color">+ اضافه حساب جديد</a></th>
                                     </tr>
                                 </thead>
                             </table>
@@ -227,23 +180,6 @@
                     document.querySelector('.s-img3').style.padding = '0'
                 }
             });
-
-            let editBox = document.querySelector('.edit-box');
-            let saveBox = document.querySelector('.save-box');
-            let textArea = document.querySelector('.accounts-info textarea')
-            editBox.addEventListener('click',() =>{
-                saveBox.classList.toggle('active');
-                editBox.style.display = 'none'
-                textArea.disabled = false;
-                textArea.style.opacity = '1';
-                textArea.focus()
-            })
-            saveBox.addEventListener('click',() =>{
-                editBox.style.display = 'block'
-                textArea.disabled = true;
-                textArea.style.opacity = '.5';
-                saveBox.style.display = 'none'
-            })
         </script>
         <script>new WOW().init();</script>
     </body>
